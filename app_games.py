@@ -23,6 +23,8 @@ st.set_page_config(page_title="Dashboards Games", layout="wide")
 st.markdown("<h1 style='text-align:center;'>📊Dashboards de Games</h1>",
             unsafe_allow_html=True)
 
+st.divider()
+
 # Remove Estilo Streamlit
 remove_st_estilo = """
     <style>
